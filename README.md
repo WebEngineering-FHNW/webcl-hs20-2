@@ -1,9 +1,6 @@
 # webcl-hs20-2
 Module Web Clients Fall Semester 2020
 
-# webcl-hs20
-module web clients fall semester 2020
-
 # week1 Anschluss an WebPr finden
 
 Einfache Todo App mit MVC
