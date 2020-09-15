@@ -21,7 +21,10 @@ const whateverTransformer = (attribute) => (event) => {
 const addSuffix = (attribute) => (event) => {
     return event
         .split(' ')
-        .map(word => word + attribute.value)
+        .map(word => {
+            if (word.endsWith(attribute.value)) return word
+            return word + attribute.value
+        })
         .reduce((acc, word) => acc + word + ' ', "")
         .trim()
 }
