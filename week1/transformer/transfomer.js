@@ -5,13 +5,18 @@ const Transformers = () => {
     const getTransformer = (attribute) => transformers.has(attribute) ? transformers.get(attribute) : _ => _
     const hasTransformer = (attribute) => transformers.has(attribute)
     const searchTransformers = (attributes) => attributes
-        .map(att => hasTransformer(att))
+        .map(att => hasTransformer(att.name))
         .reduce((acc, att) => acc || att, false)
     const findTransformer = (attributes) => attributes
-        .filter(att => hasTransformer(att))
-        .map(attribute => getTransformer(attribute))
+        .filter(att => hasTransformer(att.name))
+        .map(attribute => getTransformer(attribute.name)(attribute))
     return {
-        get: (attributes) => searchTransformers(attributes) ? findTransformer(attributes) : [_ => _],
+        get: (attributes) => {
+
+            const atts = Array.prototype.slice.call(attributes)
+
+            return searchTransformers(atts) ? findTransformer(atts) : [_ => _]
+        },
         add: registerTransformer,
         remove: unregisterTransformer,
         count: () => transformers.size,

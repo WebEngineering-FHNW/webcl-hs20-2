@@ -6,26 +6,26 @@
 
 const transformer = Transformers()
 
-const capitalTransformer = (event) => {
+const capitalTransformer = (attribute) => (event) => {
+    let index = attribute.value ? Number(attribute.value) : 1
     return event
         .split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .map(word => word.charAt(index - 1).toUpperCase() + word.slice(index))
         .reduce((acc, word) => acc + word + ' ', "")
         .trim()
 }
-const whateverTransformer = (event) => {
+const whateverTransformer = (attribute) => (event) => {
     return 'whatever'
 }
 
-const addSuffix = (event) => {
+const addSuffix = (attribute) => (event) => {
     return event
         .split(' ')
-        .map(word => word + "-suffix")
+        .map(word => word + attribute.value)
         .reduce((acc, word) => acc + word + ' ', "")
         .trim()
 }
 transformer.add('capital', capitalTransformer)
-
 transformer.add('whatever', whateverTransformer)
 transformer.add('addsuffix', addSuffix)
 
@@ -92,7 +92,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42" capital addsuffix>
+                <input type="text" size="42" capital addsuffix="--!!hurra">
                 <input type="checkbox" >            
             `;
             return template.children;
@@ -102,10 +102,11 @@ const TodoItemsView = (todoController, rootElement) => {
 
         checkboxElement.onclick = _ => todo.setDone(checkboxElement.checked);
         deleteButton.onclick = _ => todoController.removeTodo(todo);
-        inputElement.onblur = value => {
+        inputElement.onchange = value => {
             const fns = transformer
-                .get(Array.prototype.slice.call(inputElement.attributes).map(att => att.name));
+                .get(inputElement.attributes);
             let transformed = value.target.value
+            console.log(fns)
             for (let i = 0; i < fns.length; i++) {
                 transformed = fns[i](transformed)
             }
