@@ -8,11 +8,11 @@ const TodoController = () => {
         const textAttr = Observable("text");            // we current don't expose it as we don't use it elsewhere
         const doneAttr = Observable(false);
         return {
-            getDone:       doneAttr.getValue,
-            setDone:       doneAttr.setValue,
+            getDone: doneAttr.getValue,
+            setDone: doneAttr.setValue,
             onDoneChanged: doneAttr.onChange,
-            setText:       textAttr.setValue,
-            getText:       textAttr.getValue,
+            setText: textAttr.setValue,
+            getText: textAttr.getValue,
             onTextChanged: textAttr.onChange,
         }
     };
@@ -33,23 +33,23 @@ const TodoController = () => {
         todoModel.add(newTodo);
         newTodo.setText('...');
 
-        scheduler.add( ok =>
-           fortuneService( text => {        // schedule the fortune service and proceed when done
-                   newTodo.setText(text);
-                   ok();
-               }
-           )
+        scheduler.add(ok =>
+            fortuneService(text => {        // schedule the fortune service and proceed when done
+                    newTodo.setText(text);
+                    ok();
+                }
+            )
         );
     };
 
     return {
-        numberOfTodos:      todoModel.count,
-        numberOfopenTasks:  () => todoModel.countIf( todo => ! todo.getDone() ),
-        addTodo:            addTodo,
-        addFortuneTodo:     addFortuneTodo,
-        removeTodo:         todoModel.del,
-        onTodoAdd:          todoModel.onAdd,
-        onTodoRemove:       todoModel.onDel,
+        numberOfTodos: todoModel.count,
+        numberOfopenTasks: () => todoModel.countIf(todo => !todo.getDone()),
+        addTodo: addTodo,
+        addFortuneTodo: addFortuneTodo,
+        removeTodo: todoModel.del,
+        onTodoAdd: todoModel.onAdd,
+        onTodoRemove: todoModel.onDel,
         removeTodoRemoveListener: todoModel.removeDeleteListener, // only for the test case, not used below
     }
 };
@@ -65,23 +65,25 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42">
-                <input type="checkbox">            
+                <input type="text" size="42" captial>
+                <input type="checkbox" >            
             `;
             return template.children;
         }
+
         const [deleteButton, inputElement, checkboxElement] = createElements();
 
         checkboxElement.onclick = _ => todo.setDone(checkboxElement.checked);
-        deleteButton.onclick    = _ => todoController.removeTodo(todo);
+        deleteButton.onclick = _ => todoController.removeTodo(todo);
+        inputElement.onblur = value => inputElement.value = capitalTransformer(value);
 
-        todoController.onTodoRemove( (removedTodo, removeMe) => {
+        todoController.onTodoRemove((removedTodo, removeMe) => {
             if (removedTodo !== todo) return;
             rootElement.removeChild(inputElement);
             rootElement.removeChild(deleteButton);
             rootElement.removeChild(checkboxElement);
             removeMe();
-        } );
+        });
 
         todo.onTextChanged(() => inputElement.value = todo.getText());
 
@@ -122,4 +124,16 @@ const TodoOpenView = (todoController, numberOfOpenTasksElement) => {
     todoController.onTodoRemove(render);
 };
 
+const capitalTransformer = (event) => {
+    console.log(event.target.attributes)
+    console.log(event.target.getAttribute('capital'))
+    return event.target.value
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .reduce((acc, word) => acc + word + ' ', "")
+        .trim()
+}
 
+const validator = () => {
+
+}
