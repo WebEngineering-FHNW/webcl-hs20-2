@@ -1,6 +1,33 @@
 // requires ../observable/observable.js
+// requires ../transformer/transformer.js
 // requires ./fortuneService.js
 // requires ../dataflow/dataflow.js
+
+
+const transformer = Transformers()
+
+const capitalTransformer = (event) => {
+    return event
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .reduce((acc, word) => acc + word + ' ', "")
+        .trim()
+}
+const whateverTransformer = (event) => {
+    return 'whatever'
+}
+
+const addSuffix = (event) => {
+    return event
+        .split(' ')
+        .map(word => word + "-suffix")
+        .reduce((acc, word) => acc + word + ' ', "")
+        .trim()
+}
+transformer.add('capital', capitalTransformer)
+
+transformer.add('whatever', whateverTransformer)
+transformer.add('addsuffix', addSuffix)
 
 const TodoController = () => {
 
@@ -65,7 +92,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42" captial>
+                <input type="text" size="42" whatever capital addsuffix>
                 <input type="checkbox" >            
             `;
             return template.children;
@@ -75,7 +102,15 @@ const TodoItemsView = (todoController, rootElement) => {
 
         checkboxElement.onclick = _ => todo.setDone(checkboxElement.checked);
         deleteButton.onclick = _ => todoController.removeTodo(todo);
-        inputElement.onblur = value => inputElement.value = capitalTransformer(value);
+        inputElement.onblur = value => {
+            const fns = transformer
+                .get(Array.prototype.slice.call(inputElement.attributes).map(att => att.name));
+            let transformed = value.target.value
+            for (let i = 0; i < fns.length; i++) {
+                transformed = fns[i](transformed)
+            }
+            inputElement.value = transformed
+        }
 
         todoController.onTodoRemove((removedTodo, removeMe) => {
             if (removedTodo !== todo) return;
@@ -123,17 +158,3 @@ const TodoOpenView = (todoController, numberOfOpenTasksElement) => {
     });
     todoController.onTodoRemove(render);
 };
-
-const capitalTransformer = (event) => {
-    console.log(event.target.attributes)
-    console.log(event.target.getAttribute('capital'))
-    return event.target.value
-        .split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .reduce((acc, word) => acc + word + ' ', "")
-        .trim()
-}
-
-const validator = () => {
-
-}
