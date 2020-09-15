@@ -109,7 +109,6 @@ const TodoItemsView = (todoController, rootElement) => {
             const fns = transformer
                 .get(inputElement.attributes);
             let transformed = value.target.value
-            console.log(fns)
             for (let i = 0; i < fns.length; i++) {
                 transformed = fns[i](transformed)
             }
