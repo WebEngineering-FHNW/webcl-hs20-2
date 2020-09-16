@@ -12,10 +12,8 @@ const Transformers = () => {
         .map(attribute => getTransformer(attribute.name)(attribute))
     return {
         get: (attributes) => {
-
-            const atts = Array.prototype.slice.call(attributes)
-
-            return searchTransformers(atts) ? findTransformer(atts) : [_ => _]
+            const attrs = Array.prototype.slice.call(attributes)
+            return searchTransformers(attrs) ? findTransformer(attrs) : [_ => _]
         },
         registerInputElement: (inputElement) => inputElement.onchange = value => inputElement.value = transformer
             .get(inputElement.attributes)
