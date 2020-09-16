@@ -14,20 +14,18 @@ const capitalTransformer = (attribute) => (event) => {
         .reduce((acc, word) => acc + word + ' ', "")
         .trim()
 }
-const whateverTransformer = (attribute) => (event) => {
-    return 'whatever'
-}
+const whateverTransformer = (attribute) => (event) => 'whatever'
 
-const addSuffix = (attribute) => (event) => {
-    return event
-        .split(' ')
-        .map(word => {
-            if (word.endsWith(attribute.value)) return word
-            return word + attribute.value
-        })
-        .reduce((acc, word) => acc + word + ' ', "")
-        .trim()
-}
+
+const addSuffix = (attribute) => (event) => event
+    .split(' ')
+    .map(word => {
+        if (word.endsWith(attribute.value)) return word
+        return word + attribute.value
+    })
+    .reduce((acc, word) => acc + word + ' ', "")
+    .trim()
+
 transformer.add('capital', capitalTransformer)
 transformer.add('whatever', whateverTransformer)
 transformer.add('addsuffix', addSuffix)
@@ -95,7 +93,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42"  capital addsuffix="--!!hurra" >
+                <input type="text" size="42"  capital addsuffix="=>" >
                 <input type="checkbox" >            
             `;
             return template.children;
