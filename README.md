@@ -8,7 +8,7 @@ Der aktuelle Punktestand der Studenten ist in der Microsoft Teams Gruppe unter d
 # week1 Anschluss an WebPr finden
 **Datum**: 15.09.2020 08:15 a.m. - 11:00 a.m.
 
-**Recording**: *Später verfügbar*
+**Recording**: *Verfügbar bis 05.10.2020*
 
 **Hauptthema**: Einfache Todo App mit MVC
 
