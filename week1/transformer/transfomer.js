@@ -19,7 +19,7 @@ const Transformers = () => {
         },
         registerInputElement: (inputElement) => inputElement.onchange = value => inputElement.value = transformer
             .get(inputElement.attributes)
-            .reduce((acc, fn) => acc = fn(acc), value.target.value),
+            .reduce((acc, fn) =>  fn(acc), value.target.value),
         add: registerTransformer,
         remove: unregisterTransformer,
         count: () => transformers.size,
