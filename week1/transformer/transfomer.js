@@ -17,17 +17,9 @@ const Transformers = () => {
 
             return searchTransformers(atts) ? findTransformer(atts) : [_ => _]
         },
-        registerInputElement: (inputElement) => {
-            inputElement.onchange = value => {
-                const fns = transformer
-                    .get(inputElement.attributes);
-                let transformed = value.target.value
-                for (let i = 0; i < fns.length; i++) {
-                    transformed = fns[i](transformed)
-                }
-                inputElement.value = transformed
-            }
-        },
+        registerInputElement: (inputElement) => inputElement.onchange = value => inputElement.value = transformer
+            .get(inputElement.attributes)
+            .reduce((acc, fn) => acc = fn(acc), value.target.value),
         add: registerTransformer,
         remove: unregisterTransformer,
         count: () => transformers.size,
