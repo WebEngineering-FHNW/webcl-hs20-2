@@ -93,7 +93,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42"  capital addsuffix="=>" >
+                <input type="text" size="42"  capital addsuffix="𝛌" >
                 <input type="checkbox" >            
             `;
             return template.children;

@@ -10,14 +10,14 @@ const Transformers = () => {
     const findTransformer = (attributes) => attributes
         .filter(att => hasTransformer(att.name))
         .map(attribute => getTransformer(attribute.name)(attribute))
+    const getFns = (attributes) => {
+        const attrs = Array.prototype.slice.call(attributes)
+        return searchTransformers(attrs) ? findTransformer(attrs) : [_ => _]
+    }
     return {
-        get: (attributes) => {
-            const attrs = Array.prototype.slice.call(attributes)
-            return searchTransformers(attrs) ? findTransformer(attrs) : [_ => _]
-        },
-        registerInputElement: (inputElement) => inputElement.onchange = value => inputElement.value = transformer
-            .get(inputElement.attributes)
-            .reduce((acc, fn) =>  fn(acc), value.target.value),
+        get: getFns,
+        registerInputElement: (inputElement) => inputElement.onchange = value => inputElement.value = getFns(inputElement.attributes)
+            .reduce((acc, fn) => fn(acc), value.target.value),
         add: registerTransformer,
         remove: unregisterTransformer,
         count: () => transformers.size,
