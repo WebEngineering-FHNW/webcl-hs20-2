@@ -95,7 +95,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42" capital addsuffix="--!!hurra">
+                <input type="text" size="42"  capital addsuffix="--!!hurra" >
                 <input type="checkbox" >            
             `;
             return template.children;
@@ -105,15 +105,8 @@ const TodoItemsView = (todoController, rootElement) => {
 
         checkboxElement.onclick = _ => todo.setDone(checkboxElement.checked);
         deleteButton.onclick = _ => todoController.removeTodo(todo);
-        inputElement.onchange = value => {
-            const fns = transformer
-                .get(inputElement.attributes);
-            let transformed = value.target.value
-            for (let i = 0; i < fns.length; i++) {
-                transformed = fns[i](transformed)
-            }
-            inputElement.value = transformed
-        }
+        transformer.registerInputElement(inputElement)
+
 
         todoController.onTodoRemove((removedTodo, removeMe) => {
             if (removedTodo !== todo) return;
