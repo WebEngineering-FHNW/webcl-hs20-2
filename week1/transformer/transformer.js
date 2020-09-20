@@ -1,6 +1,6 @@
 const Transformers = () => {
     const transformers = new Map()
-    const registerTransformer = (attribute, tranfomer) => transformers.set(attribute, tranfomer)
+    const registerTransformer = (attribute, tranformer) => transformers.set(attribute, tranformer)
     const unregisterTransformer = (attribute) => transformers.delete(attribute)
     const getTransformer = (attribute) => transformers.has(attribute) ? transformers.get(attribute) : _ => _
     const hasTransformer = (attribute) => transformers.has(attribute)

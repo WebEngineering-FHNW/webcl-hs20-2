@@ -30,6 +30,23 @@ transformer.add('capital', capitalTransformer)
 transformer.add('whatever', whateverTransformer)
 transformer.add('addsuffix', addSuffix)
 
+const validator = Validator()
+
+const maxLength = (attribute) => (value) => {
+    const length = attribute.value ? Number(attribute.value) : -1
+    if (length < 0) return true
+    return value.length < length
+}
+
+const minLength = (attribute) => (value) => {
+    const length = attribute.value ? Number(attribute.value) : -1
+    if (length < 0) return true
+    return value.length > length
+}
+
+validator.add('max', maxLength)
+validator.add('min', minLength)
+
 const TodoController = () => {
 
     const Todo = () => {                                // facade
@@ -93,7 +110,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42"  capital addsuffix="𝛌" >
+                <input type="text" size="42" max="10"  min="5" capital addsuffix="𝛌" >
                 <input type="checkbox" >            
             `;
             return template.children;
@@ -104,6 +121,7 @@ const TodoItemsView = (todoController, rootElement) => {
         checkboxElement.onclick = _ => todo.setDone(checkboxElement.checked);
         deleteButton.onclick = _ => todoController.removeTodo(todo);
         transformer.registerInputElement(inputElement)
+        validator.registerInputElement(inputElement)
 
 
         todoController.onTodoRemove((removedTodo, removeMe) => {
