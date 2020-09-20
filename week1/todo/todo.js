@@ -35,13 +35,15 @@ const validator = Validator()
 const maxLength = (attribute) => (value) => {
     const length = attribute.value ? Number(attribute.value) : -1
     if (length < 0) return true
-    return value.length < length
+    console.log("max " + ": " + length + " " + value.length)
+    return value.length <= length
 }
 
 const minLength = (attribute) => (value) => {
     const length = attribute.value ? Number(attribute.value) : -1
     if (length < 0) return true
-    return value.length > length
+    console.log("min "  + ": " + length + " " + value.length)
+    return value.length >= length
 }
 
 validator.add('max', maxLength)
@@ -110,7 +112,7 @@ const TodoItemsView = (todoController, rootElement) => {
             const template = document.createElement('DIV'); // only for parsing
             template.innerHTML = `
                 <button class="delete">&times;</button>
-                <input type="text" size="42" max="10"  min="5" capital addsuffix="𝛌" >
+                <input type="text" size="42" max="15"  min="3" capital addsuffix="|" >
                 <input type="checkbox" >            
             `;
             return template.children;

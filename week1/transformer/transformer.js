@@ -16,8 +16,16 @@ const Transformers = () => {
     }
     return {
         get: getFns,
-        registerInputElement: (inputElement) => inputElement.onchange = value => inputElement.value = getFns(inputElement.attributes)
-            .reduce((acc, fn) => fn(acc), value.target.value),
+        registerInputElement: (inputElement) => inputElement.onchange = value => {
+            inputElement.value = getFns(inputElement.attributes)
+                .reduce((acc, fn) => fn(acc), value.target.value)
+            inputElement.dispatchEvent(new Event('input',
+                {
+                    transformer: true
+                }
+                )
+            )
+        },
         add: registerTransformer,
         remove: unregisterTransformer,
         count: () => transformers.size,
