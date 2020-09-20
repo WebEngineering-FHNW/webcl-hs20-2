@@ -35,14 +35,14 @@ const validator = Validator()
 const maxLength = (attribute) => (value) => {
     const length = attribute.value ? Number(attribute.value) : -1
     if (length < 0) return true
-    console.log("max " + ": " + length + " " + value.length)
+
     return value.length <= length
 }
 
 const minLength = (attribute) => (value) => {
     const length = attribute.value ? Number(attribute.value) : -1
     if (length < 0) return true
-    console.log("min "  + ": " + length + " " + value.length)
+
     return value.length >= length
 }
 
