@@ -11,7 +11,7 @@ const Transformers = () => {
         .filter(att => hasTransformer(att.name))
         .map(attribute => getTransformer(attribute.name)(attribute))
     const getFns = (attributes) => {
-        const attrs = Array.prototype.slice.call(attributes)
+        const attrs = Array.from(attributes)
         return searchTransformers(attrs) ? findTransformer(attrs) : [_ => _]
     }
     return {

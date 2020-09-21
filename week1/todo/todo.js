@@ -52,7 +52,8 @@ validator.add('min', minLength)
 const TodoController = () => {
 
     const Todo = () => {                                // facade
-        const textAttr = Observable("text");            // we current don't expose it as we don't use it elsewhere
+        const textAttr = Observable("text"); // we current don't expose it as we don't use it elsewhere
+        textAttr.onChange(t => console.log(t))
         const doneAttr = Observable(false);
         return {
             getDone: doneAttr.getValue,

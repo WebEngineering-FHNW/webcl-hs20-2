@@ -11,7 +11,7 @@ const Validator = () => {
         .filter(att => hasValidator(att.name))
         .map(attribute => getValidator(attribute.name)(attribute))
     const getFns = (attributes) => {
-        const attrs = Array.prototype.slice.call(attributes)
+        const attrs = Array.from(attributes)
         return searchValidator(attrs) ? findValidator(attrs) : [_ => true]
     }
     const addInvalidCSS = (input) => {
