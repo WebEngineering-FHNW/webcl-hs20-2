@@ -21,10 +21,15 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 
 
 **CSS Goodie:** CSS Validation, Fraktionen & View-Constraints 
+
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
 
 **Vortrag 1 (R. Schoch):**
+
 Link auf Fork: 
-https://github.com/faqnet/webcl-hs20-2/tree/master/week1/todo
-https://github.com/faqnet/webcl-hs20-2/tree/master/week1/transformer
-https://github.com/faqnet/webcl-hs20-2/tree/master/week1/validator
+https://github.com/faqnet/webcl-hs20-2/
+
+Direktlinks zu den Files:
+- https://github.com/faqnet/webcl-hs20-2/tree/master/week1/todo
+- https://github.com/faqnet/webcl-hs20-2/tree/master/week1/transformer
+- https://github.com/faqnet/webcl-hs20-2/tree/master/week1/validator
