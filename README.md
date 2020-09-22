@@ -23,7 +23,9 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
 
-**Vortrag 1 (R. Schoch):**
+---
+
+**Vortrag 1 Tranformer & Validation:**
 
 Link auf Fork: 
 https://github.com/faqnet/webcl-hs20-2/
@@ -33,10 +35,15 @@ Direktlinks zu den Files:
 - https://github.com/faqnet/webcl-hs20-2/tree/master/week1/transformer
 - https://github.com/faqnet/webcl-hs20-2/tree/master/week1/validator
 
-**Thema:** MVC -> Foliensatz WebClients_2_Attributes
+---
 
+**Thema: MVC** 
 
-**Vortrag 2 Validieren & konvertieren ():**
+Foliensatz: WebClients_2_Attributes
+
+---
+
+**Vortrag 2 Validieren & Konvertieren:**
 
 Link auf Fork: https://github.com/mzhKU/webcl-hs20-2
 
@@ -44,4 +51,14 @@ Direktlinks zu den Files:
 - https://github.com/mzhKU/webcl-hs20-2/blob/master/week1/todo/todo.js
 - im CSS das Grid entfernt, da dieses reingefunkt hat.
  
+---
 
+**Vortrag 3 innerText vs. textContent:**
+
+Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
+
+---
+
+**Live Coding**
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
