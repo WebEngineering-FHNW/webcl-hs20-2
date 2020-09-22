@@ -19,4 +19,5 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 
 **Recording**: *Veranstaltung verbleibend*
 
-CSS Goodie: CSS Goodie CSS Validation: https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
+**CSS Goodie:** CSS Validation & View-Constraints 
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
