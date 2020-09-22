@@ -59,6 +59,6 @@ Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 
 ---
 
-**Live Coding**
+**Live Coding:**
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
