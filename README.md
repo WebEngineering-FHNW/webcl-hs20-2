@@ -24,3 +24,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
 
 **Vortrag 1 (R. Schoch):**
+Link auf Fork: 
+https://github.com/faqnet/webcl-hs20-2/week1/todo
+https://github.com/faqnet/webcl-hs20-2/week1/transformer
+https://github.com/faqnet/webcl-hs20-2/week1/validator
