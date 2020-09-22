@@ -15,8 +15,13 @@ const Validator = () => {
         return searchValidator(attrs) ? findValidator(attrs) : [_ => true]
     }
     const addInvalidCSS = (input) => {
+        input.setCustomValidity("invalid")
         input.style.color = '#ff0000'
         input.style.borderBottomColor = '#ff0000'
+    }
+    const makeValid = (input, css) => {
+        input.style = css
+        input.setCustomValidity("")
     }
 
     return {
@@ -25,7 +30,7 @@ const Validator = () => {
             const originStyle = inputElement.style
             getFns(inputElement.attributes)
                 .reduce((acc, fn) => fn(value.target.value) && acc, true)
-                ? inputElement.style = originStyle
+                ? makeValid(inputElement, originStyle)
                 : addInvalidCSS(inputElement)
         },
         add: registerValidator,
