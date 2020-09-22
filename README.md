@@ -12,11 +12,11 @@ Der aktuelle Punktestand der Studenten ist in der Microsoft Teams Gruppe unter d
 
 **Hauptthema**: Einfache Todo App mit MVC
 
-Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/View.html
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
 
 # week2
 **Date**: 22.09.2020 08:15 a.m. - 11:00 a.m.
 
 **Recording**: *Veranstaltung verbleibend*
 
-CSS Goodie: CSS Goodie
+CSS Goodie: CSS Goodie CSS Validation:
