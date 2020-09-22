@@ -18,3 +18,5 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 **Date**: 22.09.2020 08:15 a.m. - 11:00 a.m.
 
 **Recording**: *Veranstaltung verbleibend*
+
+CSS Goodie: CSS Goodie
