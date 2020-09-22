@@ -32,3 +32,5 @@ Direktlinks zu den Files:
 - https://github.com/faqnet/webcl-hs20-2/tree/master/week1/todo
 - https://github.com/faqnet/webcl-hs20-2/tree/master/week1/transformer
 - https://github.com/faqnet/webcl-hs20-2/tree/master/week1/validator
+
+**Thema:** MVC -> Foliensatz WebClients_2_Attributes
