@@ -25,7 +25,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSVal
 
 ---
 
-**Vortrag 1 Tranformer & Validation:**
+**Vortrag 1: Transformer & Validation:**
 
 Link auf Fork: 
 https://github.com/faqnet/webcl-hs20-2/
@@ -43,7 +43,7 @@ Foliensatz: WebClients_2_Attributes
 
 ---
 
-**Vortrag 2 Validieren & Konvertieren:**
+**Vortrag 2: Validieren & Konvertieren:**
 
 Link auf Fork: https://github.com/mzhKU/webcl-hs20-2
 
@@ -53,7 +53,7 @@ Direktlinks zu den Files:
  
 ---
 
-**Vortrag 3 innerText vs. textContent:**
+**Vortrag 3: innerText vs. textContent:**
 
 Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 
