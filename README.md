@@ -17,7 +17,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 # week2
 **Date**: 22.09.2020 08:15 a.m. - 11:00 a.m.
 
-**Recording**: *Veranstaltung verbleibend*
+**Recording**: *Verfügbar bis 12.10.2020*
 
 
 **CSS Goodie:** CSS Validation, Fraktionen & View-Constraints 
