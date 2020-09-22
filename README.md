@@ -19,7 +19,6 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 
 **Recording**: *Verfügbar bis 12.10.2020*
 
-
 **CSS Goodie:** CSS Validation, Fraktionen & View-Constraints 
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/CSSValidation.html
