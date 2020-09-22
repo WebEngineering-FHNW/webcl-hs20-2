@@ -34,3 +34,13 @@ Direktlinks zu den Files:
 - https://github.com/faqnet/webcl-hs20-2/tree/master/week1/validator
 
 **Thema:** MVC -> Foliensatz WebClients_2_Attributes
+
+
+**Vortrag 2 ():**
+
+Link auf Fork: 
+
+
+Direktlinks zu den Files:
+ 
+
