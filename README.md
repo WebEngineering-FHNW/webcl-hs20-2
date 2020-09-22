@@ -36,11 +36,12 @@ Direktlinks zu den Files:
 **Thema:** MVC -> Foliensatz WebClients_2_Attributes
 
 
-**Vortrag 2 ():**
+**Vortrag 2 Validieren & konvertieren ():**
 
-Link auf Fork: 
-
+Link auf Fork: https://github.com/mzhKU/webcl-hs20-2
 
 Direktlinks zu den Files:
+- https://github.com/mzhKU/webcl-hs20-2/blob/master/week1/todo/todo.js
+- im CSS das Grid entfernt, da dieses reingefunkt hat.
  
 
