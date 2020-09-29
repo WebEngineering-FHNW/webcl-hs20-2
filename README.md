@@ -62,3 +62,14 @@ Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 **Live Coding:**
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
+
+# week3
+**Date**: 29.09.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *Verfügbar bis 19.10.2020*
+
+**CSS Goodie:** CSS Triangle
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
+
+---
