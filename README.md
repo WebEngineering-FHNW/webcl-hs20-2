@@ -78,3 +78,15 @@ Clip-Path mit Polygon umsetzen
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
 
 ---
+
+**Vortrag 1: Transformer & Validation:**
+
+Link auf Fork: 
+https://github.com/mikenoethiger/webcl-hs20-2
+
+Lösung der anderen Klasse:
+https://github.com/SteveVogel1/MasterDetail
+
+---
+
+runar bjornasson: liberties constrain , constraints liberate
