@@ -63,6 +63,7 @@ Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
 
+---
 # week3
 **Date**: 29.09.2020 08:15 a.m. - 11:00 a.m.
 
@@ -100,3 +101,11 @@ https://www.youtube.com/watch?v=GqmsQeSzMdw
 **Thema: Attribute projector / MVC**
 
 Foliensatz: WebClients_2_Attributes
+
+---
+
+**Live Coding:**
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todoTests.js
+
+---
