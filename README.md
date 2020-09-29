@@ -90,3 +90,4 @@ https://github.com/SteveVogel1/MasterDetail
 ---
 
 runar bjornasson: liberties constrain , constraints liberate
+https://www.youtube.com/watch?v=GqmsQeSzMdw
