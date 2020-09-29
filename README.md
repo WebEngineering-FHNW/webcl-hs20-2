@@ -69,6 +69,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presen
 **Recording**: *Verfügbar bis 19.10.2020*
 
 **CSS Goodie:** CSS Triangle
+Bordertrick: https://codepen.io/chriscoyier/pen/lotjh
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
 
