@@ -79,7 +79,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTri
 
 ---
 
-**Vortrag 1:**
+**Vortrag:**
 
 Link auf Fork: 
 https://github.com/mikenoethiger/webcl-hs20-2
@@ -89,9 +89,14 @@ https://github.com/SteveVogel1/MasterDetail
 
 ---
 
-runar bjornasson: liberties constrain , constraints liberate
+**Video**
+
+Runar Bjornasson: liberties constrain, constraints liberate
+
 https://www.youtube.com/watch?v=GqmsQeSzMdw
 
 ---
 
-**Thema: Attribute projector**
+**Thema: Attribute projector / MVC**
+
+Foliensatz: WebClients_2_Attributes
