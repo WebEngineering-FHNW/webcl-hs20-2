@@ -62,3 +62,50 @@ Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 **Live Coding:**
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
+
+---
+# week3
+**Date**: 29.09.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *Verfügbar bis 19.10.2020*
+
+**CSS Goodie:** CSS Triangle
+
+Notizen dazu:
+Bordertrick: https://codepen.io/chriscoyier/pen/lotjh
+Dropshadow über filter anwenden
+Clip-Path mit Polygon umsetzen
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
+
+---
+
+**Vortrag:**
+
+Link auf Fork: 
+https://github.com/mikenoethiger/webcl-hs20-2
+
+Lösung der anderen Klasse:
+https://github.com/SteveVogel1/MasterDetail
+
+---
+
+**Video**
+
+Runar Bjornasson: liberties constrain, constraints liberate
+
+https://www.youtube.com/watch?v=GqmsQeSzMdw
+
+---
+
+**Thema: Attribute projector / MVC**
+
+Foliensatz: WebClients_2_Attributes
+
+---
+
+**Live Coding:**
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todoTests.js
+
+---
