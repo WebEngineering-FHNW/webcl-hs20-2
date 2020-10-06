@@ -8,7 +8,7 @@ Der aktuelle Punktestand der Studenten ist in der Microsoft Teams Gruppe unter d
 # week1 Anschluss an WebPr finden
 **Datum**: 15.09.2020 08:15 a.m. - 11:00 a.m.
 
-**Recording**: *Verfügbar bis 05.10.2020*
+**Recording**: *In der Teams Gruppe*
 
 **Hauptthema**: Einfache Todo App mit MVC
 
@@ -17,7 +17,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/V
 # week2
 **Date**: 22.09.2020 08:15 a.m. - 11:00 a.m.
 
-**Recording**: *Verfügbar bis 12.10.2020*
+**Recording**: *In der Teams Gruppe*
 
 **CSS Goodie:** CSS Validation, Fraktionen & View-Constraints 
 
@@ -67,7 +67,7 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presen
 # week3
 **Date**: 29.09.2020 08:15 a.m. - 11:00 a.m.
 
-**Recording**: *Verfügbar bis 19.10.2020*
+**Recording**: *In der Teams Gruppe*
 
 **CSS Goodie:** CSS Triangle
 
@@ -110,10 +110,10 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/t
 
 ---
 
-# week
+# week 4
 **Date**: 06.10.2020 08:15 a.m. - 11:00 a.m.
 
-**Recording**: *Verfügbar bis 19.10.2020*
+**Recording**: *In der Teams Gruppe*
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
 
