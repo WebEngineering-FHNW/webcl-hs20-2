@@ -100,7 +100,7 @@ https://www.youtube.com/watch?v=GqmsQeSzMdw
 
 **Thema: Attribute projector / MVC**
 
-Foliensatz: WebClients_2_Attributes
+Foliensatz: WebClients_2_Attributes & WebClients_3_Attribute_Projector
 
 ---
 
@@ -145,3 +145,8 @@ Dokumentation ist für den Verwender.
 ---
 
 **Thema: Master Detail**
+
+Foliensatz: WebClients_4_Master_Detail
+
+Dinge machen können, die andere nicht machen können in der Zeit und dieser QUalität.
+
