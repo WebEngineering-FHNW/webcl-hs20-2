@@ -109,3 +109,22 @@ Foliensatz: WebClients_2_Attributes
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todoTests.js
 
 ---
+
+# week
+**Date**: 06.10.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *Verfügbar bis 19.10.2020*
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
+
+---
+
+**Vortrag: JS Doc**
+
+Link auf Fork: 
+https://pebesch.github.io/webcl-hs20-2/
+
+Lösung der anderen Klasse:
+https://github.com/SteveVogel1/MasterDetail
+
+---
