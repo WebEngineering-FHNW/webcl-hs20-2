@@ -145,7 +145,7 @@ Dokumentation ist für den Verwender. ~König Dierk
 
 Foliensatz: WebClients_4_Master_Detail
 
-Dinge machen können, die andere nicht machen können in der Zeit und dieser QUalität.
+Dinge machen können, die andere nicht machen können in der Zeit und dieser Qualität.
 
 ---
 
@@ -160,4 +160,8 @@ Github pages under
 Video aus WebFR auf SwitchTube zu MVC:
 https://tube.switch.ch/videos/f6f3bc1b
 
+- https://webengineering-fhnw.github.io/webcl-hs20/week3/presentationModel/presentationModel.js
+
+Browser ist ein Master Detail View als Bsp.
+Master View sind die Tabs, Inhalt der Tabs ist ein Detail View
 ---
