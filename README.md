@@ -147,3 +147,13 @@ Foliensatz: WebClients_4_Master_Detail
 
 Dinge machen können, die andere nicht machen können in der Zeit und dieser QUalität.
 
+---
+
+**Live Coding:**
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/View.html
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todoStarter.js
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todo.js
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todoProjector.js
+
+---
