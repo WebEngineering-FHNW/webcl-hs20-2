@@ -157,7 +157,7 @@ Github pages under
 - https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todo.js
 - https://webengineering-fhnw.github.io/webcl-hs20/week3/todo/todoProjector.js
 
-Video aus WebFR auf SwitchTube zu MVC:
+Video aus Webfr auf SwitchTube zu MVC (FHNW Login):
 https://tube.switch.ch/videos/f6f3bc1b
 
 - https://webengineering-fhnw.github.io/webcl-hs20/week3/presentationModel/presentationModel.js
