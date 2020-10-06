@@ -124,7 +124,24 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTri
 Link auf Fork: 
 https://pebesch.github.io/webcl-hs20-2/
 
-Lösung der anderen Klasse:
-https://github.com/SteveVogel1/MasterDetail
-
 ---
+
+**Thema: JS Doc**
+
+Bsp: @return {a} = typ
+Typendefinierung @typedef {*} a
+
+Quick JSDock Cntr-Q
+Quick implementation Ctrl-Shift-I
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/church/church.js
+
+Kommentare sind für den Leser der Implement.
+Dokumentation ist für den Verwender. ~König Dierk
+
+👍
+1
+Dokumentation ist für den Verwender.
+---
+
+**Thema: Master Detail**
