@@ -139,9 +139,6 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/church
 Kommentare sind für den Leser der Implement.
 Dokumentation ist für den Verwender. ~König Dierk
 
-👍
-1
-Dokumentation ist für den Verwender.
 ---
 
 **Thema: Master Detail**
