@@ -184,6 +184,8 @@ Stichwort: Sonderaufgaben, Aufgabenverteilung, Klassenübergreifende Effekte auf
 **Vortrag: Vierecke in CSS machen**
 
 Benutzen von Pseudo-Elemete ::before, ::after
+https://gist.github.com/marcowaldmeier/1492c11f51a69d8eeb852c3f1c5250b0
+
 ---
 
 **Vortrag 2: MTML & CSS Collapse**
