@@ -176,3 +176,8 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTri
 ---
 
 **Diskukssion zum Thema Punktevergabe**
+
+Stichwort: Sonderaufgabe, Aufgabenverteilung, Klassenübergreifende Effekte auf den Untericht.
+
+---
+
