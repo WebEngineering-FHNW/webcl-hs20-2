@@ -181,3 +181,13 @@ Stichwort: Sonderaufgaben, Aufgabenverteilung, Klassenübergreifende Effekte auf
 
 ---
 
+**Vortrag: Vierecke in CSS machen**
+
+Benutzen von Pseudo-Elemete ::before, ::after
+---
+
+**Vortrag 2: MTML & CSS Collapse**
+
+https://github.com/YannikBeimler/webcl/blob/main/CSS-Collapse/css-collapse-example.html
+
+---
