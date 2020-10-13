@@ -184,12 +184,31 @@ Stichwort: Sonderaufgaben, Aufgabenverteilung, Klassenübergreifende Effekte auf
 **Vortrag: Vierecke in CSS machen**
 
 Benutzen von Pseudo-Elemete ::before, ::after
+
+Link auf Code: 
 https://gist.github.com/marcowaldmeier/1492c11f51a69d8eeb852c3f1c5250b0
 
 ---
 
-**Vortrag 2: MTML & CSS Collapse**
+**Vortrag 2: HTML & CSS Collapse**
 
+Link auf Fork: 
 https://github.com/YannikBeimler/webcl/blob/main/CSS-Collapse/css-collapse-example.html
+
+- Erklärung von dem '+' und '~' Combinator für CSS
+- Einsatz von HTML-Validatoren
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#:~:text=The%20HTML%20Disclosure%20Summary%20element,details%3E%20element%20open%20and%20closed.
+
+---
+
+Kollabieren von Sektionen im UI ist super hilfreich 
+- Userinterface soll so einfach sein wie das von Google (einfach und Übersichtlich) und man muss alle Informationen auf einmal sehen können
+-> beides aufs mal adressieren ist nicht einfach. Mit kollabierten Sektionen kann man selber entscheiden was man anzeigen will. 
+
+---
+
+**Video: Quickstorm**
+
+Video unter Woche 5 im Teams
 
 ---
