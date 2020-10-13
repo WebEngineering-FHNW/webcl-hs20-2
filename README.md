@@ -212,3 +212,13 @@ Kollabieren von Sektionen im UI ist super hilfreich
 Video unter Woche 5 im Teams
 
 ---
+
+**Live Codeing: Projektor**
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week5/todo
+
+---
+
+**Thema: Projektor Pattern**
+Foliensatz: WebClients_5_Projector_Pattern
+
+---
