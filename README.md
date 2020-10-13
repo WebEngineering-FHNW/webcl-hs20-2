@@ -165,3 +165,14 @@ https://tube.switch.ch/videos/f6f3bc1b
 Browser ist ein Master Detail View als Bsp.
 Master View sind die Tabs, Inhalt der Tabs ist ein Detail View
 ---
+
+# week 5
+**Date**: 13.10.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week3/CSSTriangle.html
+
+---
+
+**Diskukssion zum Thema Punktevergabe**
