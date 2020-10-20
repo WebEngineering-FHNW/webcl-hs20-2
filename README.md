@@ -241,4 +241,42 @@ background-size: 100% 1px;
 background-repeat: no-repeat;
 background-position: right bottom;
 transition: background-size 0.3s linear;
+
+Bei jeder Änderung ide dazu führt das eine CSS Regel angewendet wird, werden auch transitions umgesetzt.
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/todo/todo.css
+
+---
+
+**Thema: CSS++**
+Foliensatz: WebClients_6_CSS
+
+---
+
+**Vortrag 1: Tabelle anstelle Liste (Projector)**
+
+Cooles Beispiel, kommentiert mit Dokumentation.
+Link auf Fork: 
+https://github.com/Sixtisam/webcl/commit/e8ed7693cb04243ec1949a5b7ce5de3794345156?w=1
+
+---
+
+**Livecoding: ++**
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week5/person/person.js
+
+---
+
+**Lösungsvorschlag: Job-Attribut++**
+In bestehende Lösung einbauen
+
+---
+
+**Livecoding: ++**
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/person/person.js
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/person/tableProjector.js
+
+---
+
+**Thema: CSS++ (cont.)**
+Foliensatz: WebClients_6_CSS
+
+---
