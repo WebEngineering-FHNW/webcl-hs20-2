@@ -230,6 +230,13 @@ Foliensatz: WebClients_5_Projector_Pattern
 
 ---
 
-**Sensorik**
+**CSS Effekt**: 
+Sensorik:
 Berührung, Audio, Bewegung
+
+Bewegung des Hintergrunds für Animation mit Background Image gradient
+background-image: linear-gradient(orange, orange);
+background-size: 100% 1px;
+background-repeat: no-repeat;
+background-position: right bottom;
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/todo/todo.css
