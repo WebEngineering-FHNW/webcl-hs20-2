@@ -1,5 +1,6 @@
 import { Attribute, LABEL }                                 from "../presentationModel/presentationModel.js";
-import { listItemProjector, formProjector, pageCss }        from "./instantUpdateProjector.js";
+//import { listItemProjector, formProjector, pageCss }        from "./instantUpdateProjector.js";
+import { listItemProjector, formProjector, pageCss }        from "./tableProjector.js";
 
 export { MasterView, DetailView, Person, NoPerson, ALL_ATTRIBUTE_NAMES }
 
