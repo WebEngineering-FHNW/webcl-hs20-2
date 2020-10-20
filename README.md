@@ -222,3 +222,14 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week5/todo
 Foliensatz: WebClients_5_Projector_Pattern
 
 ---
+
+# week 6
+**Date**: 20.10.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**Sensorik**
+Berührung, Audio, Bewegung
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/todo/todo.css
