@@ -230,13 +230,15 @@ Foliensatz: WebClients_5_Projector_Pattern
 
 ---
 
-**CSS Effekt**: 
+**CSS Effekt: Focus animation**: 
 Sensorik:
 Berührung, Audio, Bewegung
 
 Bewegung des Hintergrunds für Animation mit Background Image gradient
+border-bottom-volor: transparent;
 background-image: linear-gradient(orange, orange);
 background-size: 100% 1px;
 background-repeat: no-repeat;
 background-position: right bottom;
+transition: background-size 0.3s linear;
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/todo/todo.css
