@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ripple-Effect Buttons</title>
+    <style>
+
+        :root {
+            margin:     0;
+            padding:    0;
+            box-sizing: border-box;
+            font-family: "Helvetica Neue", "sans-serif";
+        }
+
+        main {
+            display:            flex;
+            flex-direction:     column;
+            justify-content:    center;
+            min-height:         100vh;
+        }
+
+        button.ripple:focus {
+            outline: none;
+        }
+
+        button.ripple {
+            margin:         auto;
+            text-transform: uppercase;
+            letter-spacing: .5em;
+            transform:      scale(3);
+            position:       relative;
+        }
+
+        button.ripple::before {
+            content:            "";
+            pointer-events:     none;
+            position:           absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+<main>
+        <button class="ripple"
+                style="background: linear-gradient(135deg, lightblue, dodgerblue, lightblue);">
+            Ripple
+        </button>
+        <button class="ripple"
+                style="background: linear-gradient(135deg, orange, red, orange); color: white;">
+            Ripple
+        </button>
+        <button class="ripple" >Ripple</button>
+
+</main>
+
+<script>
+    const buttons = document.querySelectorAll("button.ripple");
+    buttons.forEach( button =>
+        button.onclick = event => {
+
+        }
+    )
+
+</script>
+
+</body>
+
+</html>
