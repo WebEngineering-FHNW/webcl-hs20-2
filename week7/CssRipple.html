@@ -29,6 +29,8 @@
             letter-spacing: .5em;
             transform:      scale(3);
             position:       relative;
+            --ripple-x:     0px;
+            --ripple-y:     0px;
         }
 
         button.ripple::before {
@@ -36,8 +38,30 @@
             pointer-events:     none;
             position:           absolute;
             top: 0; left: 0; bottom: 0; right: 0;
+            background:         lightsteelblue;
+            mix-blend-mode:     multiply;
+            clip-path:         circle(0% at var(--ripple-x) var(--ripple-y));
+            -webkit-clip-path: circle(0% at var(--ripple-x) var(--ripple-y));
 
         }
+        button.clicked::before {
+            animation: ripple ease-in 400ms; // note: when changing duration, update the js handler
+        }
+        @keyframes ripple {
+            0% {
+                clip-path:         circle(0%   at var(--ripple-x) var(--ripple-y));
+                -webkit-clip-path: circle(0%   at var(--ripple-x) var(--ripple-y));
+            }
+            99% {
+                clip-path:         circle(100% at var(--ripple-x) var(--ripple-y));
+                -webkit-clip-path: circle(100% at var(--ripple-x) var(--ripple-y));
+            }
+            100% {
+                clip-path:         circle(0%   at var(--ripple-x) var(--ripple-y));
+                -webkit-clip-path: circle(0%   at var(--ripple-x) var(--ripple-y));
+            }
+        }
+
 
     </style>
 </head>
@@ -61,7 +85,10 @@
     const buttons = document.querySelectorAll("button.ripple");
     buttons.forEach( button =>
         button.onclick = event => {
-
+            button.style.setProperty("--ripple-x", event.offsetX+"px");
+            button.style.setProperty("--ripple-y", event.offsetY+"px");
+            button.classList.add("clicked");
+            setTimeout( _ => button.classList.remove("clicked"), 400); // we need to set back for the next click
         }
     )
 
