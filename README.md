@@ -290,4 +290,14 @@ Foliensatz: WebClients_6_CSS
 
 **CSS Effekt: Ripple**: 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/CssRipple.html
+
+---
+
+**Vortrag 1: UX für FTE Planner**
+
+Teil 1:
+https://tube.switch.ch/videos/8b06c586
+
+Teil 2 im Recording
+
 ---
