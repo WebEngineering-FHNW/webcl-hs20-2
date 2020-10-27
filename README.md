@@ -280,3 +280,14 @@ Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/person
 Foliensatz: WebClients_6_CSS
 
 ---
+
+# week 7
+**Date**: 27.10.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Effekt: Ripple**: 
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/CssRipple.html
+---
