@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View</title>
+
+    <style>
+        body {
+            margin: 2em;
+        }
+        .ball {
+            width: 40px;
+            height: 40px;
+            background-color: black;
+            border-radius: 50%;
+        }
+    </style>
+    <script src="./tween.js"></script>
+</head>
+<body>
+
+<h1>Animate</h1>
+
+Linear
+<div id="toMove1" class="ball"></div>
+Ease in
+<div id="toMove2" class="ball"></div>
+Ease both
+<div id="toMove3" class="ball"></div>
+Ease out
+<div id="toMove4" class="ball"></div>
+Offset
+<div id="toMove5" class="ball"></div>
+Wiggle
+<div id="toMove6" class="ball"></div>
+Quad Bezier
+<div id="toMove7" class="ball"></div>
+Cubic Bezier
+<div id="toMove8" class="ball"></div>
+
+<script>
+
+    const bounceLeft  = undertow(0.2)(linear);
+    const bounceRight = overtow(0.8)(linear);
+    const bounce      = overtow(0.8)(undertow(0.2)( linear )) ;
+    const wiggle      = combine(easeBoth)(bounce);
+    // const wiggle      = bounce;
+
+    animate(linear,   2000, value => toMove1.style.transform = 'translateX(' + value*1000 + 'px)');
+    animate(easeIn,   2000, value => toMove2.style.transform = 'translateX(' + value*1000 + 'px)');
+    animate(easeBoth, 2000, value => toMove3.style.transform = 'translateX(' + value*1000 + 'px)');
+    animate(easeOut,  2000, value => toMove4.style.transform = 'translateX(' + value*1000 + 'px)');
+    animate(linear,   2000, value => toMove5.style.transform = 'translateX(500px) translateX(' + value*500 + 'px)');
+    animate(wiggle,   2000, value => toMove6.style.transform = 'translateX(' + value*1000 + 'px)');
+
+    animate(quadBezier(0,0)(0.5,1)(1,0), 2000,
+            value => {
+               toMove7.style.transform = 'translateX(' + value[0]*1000 + 'px) translateY(' + value[1]*200 + 'px)'
+            });
+
+    animate(cubeBezier(0,0)(0.33,1)(0.66,-1)(1,0), 2000,
+            value => {
+               toMove8.style.transform = 'translateX(' + value[0]*1000 + 'px) translateY(' + value[1]*200 + 'px)'
+            });
+
+</script>
+
+</body>
+</html>
