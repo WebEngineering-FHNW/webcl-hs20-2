@@ -313,3 +313,8 @@ Teil 2 im Recording
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/CssSpotlight.html
 
 ---
+
+**Vortrag 1: Bezier-Kurven**
+https://github.com/sivakumm/webcl-hs20-bezier-curve
+
+---
