@@ -310,25 +310,30 @@ Teil 2 im Recording
 ---
 
 **CSS Effekt: Spotlight**: 
+
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/CssSpotlight.html
 
 ---
 
 **Vortrag 1: Bezier-Kurven**
+
 https://github.com/sivakumm/webcl-hs20-bezier-curve
 
 ---
 
 **Vortrag 2: SVG Animation**
+
 https://github.com/Pebesch/webcl-hs20-2/blob/master/week7/svg-eyes-sketch/EyesMorph.html
 
 ---
 
 **Thema: Animation**
+Dekalative Animationen und Tweening
 
 Beispiel Bucket (Livecoding):
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/svg-bucket-sketch/Bucket.html
 
 Tweening: 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/tween/tween.js
+
 ---
