@@ -325,7 +325,10 @@ https://github.com/Pebesch/webcl-hs20-2/blob/master/week7/svg-eyes-sketch/EyesMo
 ---
 
 **Thema: Animation**
+
 Beispiel Bucket (Livecoding):
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/svg-bucket-sketch/Bucket.html
 
+Tweening: 
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/tween/tween.js
 ---
