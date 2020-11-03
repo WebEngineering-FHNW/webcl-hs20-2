@@ -301,3 +301,15 @@ https://tube.switch.ch/videos/8b06c586
 Teil 2 im Recording
 
 ---
+
+# week 8
+**Date**: 03.11.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Effekt: Spotlight**: 
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/CssRipple.html
+
+---
