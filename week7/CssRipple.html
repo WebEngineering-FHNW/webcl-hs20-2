@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ripple-Effect Buttons</title>
+    <style>
+
+        :root {
+            margin:     0;
+            padding:    0;
+            box-sizing: border-box;
+            font-family: "Helvetica Neue", "sans-serif";
+        }
+
+        main {
+            display:            flex;
+            flex-direction:     column;
+            justify-content:    center;
+            min-height:         100vh;
+        }
+
+        button.ripple:focus {
+            outline: none;
+        }
+
+        button.ripple {
+            margin:         auto;
+            text-transform: uppercase;
+            letter-spacing: .5em;
+            transform:      scale(3);
+            position:       relative;
+            --ripple-x:     0px;
+            --ripple-y:     0px;
+        }
+
+        button.ripple::before {
+            content:            "";
+            pointer-events:     none;
+            position:           absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background:         lightsteelblue;
+            mix-blend-mode:     multiply;
+            clip-path:         circle(0% at var(--ripple-x) var(--ripple-y));
+            -webkit-clip-path: circle(0% at var(--ripple-x) var(--ripple-y));
+
+        }
+        button.clicked::before {
+            animation: ripple ease-in 400ms; // note: when changing duration, update the js handler
+        }
+        @keyframes ripple {
+            0% {
+                clip-path:         circle(0%   at var(--ripple-x) var(--ripple-y));
+                -webkit-clip-path: circle(0%   at var(--ripple-x) var(--ripple-y));
+            }
+            99% {
+                clip-path:         circle(100% at var(--ripple-x) var(--ripple-y));
+                -webkit-clip-path: circle(100% at var(--ripple-x) var(--ripple-y));
+            }
+            100% {
+                clip-path:         circle(0%   at var(--ripple-x) var(--ripple-y));
+                -webkit-clip-path: circle(0%   at var(--ripple-x) var(--ripple-y));
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+<main>
+        <button class="ripple"
+                style="background: linear-gradient(135deg, lightblue, dodgerblue, lightblue);">
+            Ripple
+        </button>
+        <button class="ripple"
+                style="background: linear-gradient(135deg, orange, red, orange); color: white;">
+            Ripple
+        </button>
+        <button class="ripple" >Ripple</button>
+
+</main>
+
+<script>
+    const buttons = document.querySelectorAll("button.ripple");
+    buttons.forEach( button =>
+        button.onclick = event => {
+            button.style.setProperty("--ripple-x", event.offsetX+"px");
+            button.style.setProperty("--ripple-y", event.offsetY+"px");
+            button.classList.add("clicked");
+            setTimeout( _ => button.classList.remove("clicked"), 600); // we need to set back for the next click
+        }
+    )
+
+</script>
+
+</body>
+
+</html>
