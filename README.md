@@ -310,6 +310,6 @@ Teil 2 im Recording
 ---
 
 **CSS Effekt: Spotlight**: 
-Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/CssRipple.html
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/CssSpotlight.html
 
 ---
