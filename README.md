@@ -370,8 +370,8 @@ Github pages under https://github.com/loop-of-8/Hover/blob/master/_show/show.htm
 
 ---
 
-**Thema: Animation**
+**Thema: Custom Elements**
 
-Dekalative Animationen und Tweening
+Foliensatz: WebClients_9_Custom_Elements
 
 ---
