@@ -337,3 +337,41 @@ Tweening:
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week8/tween/tween.js
 
 ---
+
+# week 9
+**Date**: 10.11.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Effekt: Animated Stroke**: 
+
+Thema: Shift Array und Animation von SVG Elementen
+
+Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week9/svg-signature-sketch/Signature.html
+
+---
+
+**Vortrag 1: WebAnimations**
+
+Neue Methode um Animationen anstatt in CSS in JS zu coden 
+
+Github pages under https://github.com/cookiecavekeeper/webcl/tree/web-animations/webAnimations
+(Wichtig: Kostenlos)
+
+---
+
+**Vortrag 2: Hover**
+
+Andere Methode um Animationen zu coden 
+Github pages under https://github.com/loop-of-8/Hover/blob/master/_show/show.html
+(Wichtig: Kostenlos für Eigengebrauch, Kosten fallen an für kommerzielle Benutzung)
+
+---
+
+**Thema: Animation**
+
+Dekalative Animationen und Tweening
+
+---
