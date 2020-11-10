@@ -374,4 +374,6 @@ Github pages under https://github.com/loop-of-8/Hover/blob/master/_show/show.htm
 
 Foliensatz: WebClients_9_Custom_Elements
 
+Demo: https://webengineering-fhnw.github.io/webcl-hs20/week9/custom-elements/CustomElement.html
+
 ---
