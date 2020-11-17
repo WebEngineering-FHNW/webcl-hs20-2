@@ -381,3 +381,34 @@ Demo: https://webengineering-fhnw.github.io/webcl-hs20/week9/custom-elements/Cus
 Link zu weiteren Informationen: https://custom-elements-everywhere.com/
 
 ---
+
+# week 10
+**Date**: 17.11.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+Kein Theorieteil, nur Vorträge.
+
+---
+
+**Vortrag 1: Vue.js**
+
+Umbauen von den im Untericht gebauten Komponenten.
+
+Github pages under https://mowi-fhnw.github.io/webcl-vue-project/
+
+---
+
+**Vortrag 2: Angular**
+
+Über mehrere Schritte zum Angular / Typescript Code umgebaute Komponente aus dem Untericht.
+Der originale Code kann nicht übernommen werden, das dieser in den Angular Lifecycle eingreift und diesen zerstört.
+
+Github pages under https://github.com/faqnet/webcl-eyes-ngx
+
+---
+
+**Vortrag 3: Angular**
+
+
+---
