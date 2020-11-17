@@ -365,6 +365,7 @@ Github pages under https://github.com/cookiecavekeeper/webcl/tree/web-animations
 **Vortrag 2: Hover**
 
 Andere Methode um Animationen zu coden 
+
 Github pages under https://github.com/loop-of-8/Hover/blob/master/_show/show.html
 (Wichtig: Kostenlos für Eigengebrauch, Kosten fallen an für kommerzielle Benutzung)
 
@@ -408,7 +409,10 @@ Github pages under https://github.com/faqnet/webcl-eyes-ngx
 
 ---
 
-**Vortrag 3: Angular**
+**Vortrag 3: React**
 
+Veränderbare States & Properties / Interne States
+
+Github pages under  https://github.com/RetoBeppo/webcl-hs20-2-eyes-to-react/tree/gh-pages
 
 ---
