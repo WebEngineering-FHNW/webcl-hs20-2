@@ -416,3 +416,13 @@ Veränderbare States & Properties / Interne States
 Github pages under  https://github.com/RetoBeppo/webcl-hs20-2-eyes-to-react/tree/gh-pages
 
 ---
+
+**Off-Topic Security und Node / JavaScript**
+
+Security und node.js in Kombination mit 100erten von Abhänigkeiten.
+
+Erwähnung von "deno" was sicherer als node ist.
+
+Mit Purescript kann man es besser machen. Das Potential ist da.
+
+---
