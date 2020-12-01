@@ -438,6 +438,8 @@ Mit Purescript kann man es besser machen. Das Potential ist da.
 
 https://www.w3schools.com/colors/colors_wheels.asp
 
+Demo: https://webengineering-fhnw.github.io/webcl-hs20/week11/CalculatedColors.html
+
 
 ---
 
