@@ -434,6 +434,13 @@ Mit Purescript kann man es besser machen. Das Potential ist da.
 
 ---
 
+**CSS Goodie: Colorwheel**
+
+https://www.w3schools.com/colors/colors_wheels.asp
+
+
+---
+
 **Vortrag: Components mit Halogen**
 
 ---
