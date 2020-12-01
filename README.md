@@ -464,6 +464,17 @@ Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week9/pep-ske
 
 **Rest / Good Client Design**
 
-Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep-sketch/PEP.html
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pep.html
+
+Angesehene Files:
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepLocalStarter.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepRemoteStarter.js
+
+
+Für alle Remote Services einen Lokalen Service kreieren, so das man z.B. testen oder ohne remote arbeiten kann.
+
+JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
+- Files hier: https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/ zu finden
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/rest/restClient.js
 
 ---
