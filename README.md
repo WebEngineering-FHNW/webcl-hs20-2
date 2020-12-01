@@ -453,7 +453,7 @@ filter: hue-rotate(180deg)
 
 ---
 
-**PeP**
+**PEP**
 
 Interaktive Personaleinsatzplanung
 
