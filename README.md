@@ -453,6 +453,12 @@ filter: hue-rotate(180deg)
 
 ---
 
-**Vortrag: Components mit Halogen**
+**PeP**
+
+Interaktive Personaleinsatzplanung
+
+Folien: WebClients_11_REST
+
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week9/pep-sketch/PEP.html
 
 ---
