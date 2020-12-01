@@ -426,3 +426,14 @@ Erwähnung von "deno" was sicherer als node ist.
 Mit Purescript kann man es besser machen. Das Potential ist da.
 
 ---
+
+# week 11
+**Date**: 01.12.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**Vortrag: Components mit Halogen**
+
+---
