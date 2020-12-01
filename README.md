@@ -440,6 +440,16 @@ https://www.w3schools.com/colors/colors_wheels.asp
 
 Demo: https://webengineering-fhnw.github.io/webcl-hs20/week11/CalculatedColors.html
 
+Komplementärfarben und andere Farben berrechnen mit CSS
+
+*Beispiel für ein CSS Filter*
+
+.colored.complement::before {
+
+filter: hue-rotate(180deg)
+
+}
+
 
 ---
 
