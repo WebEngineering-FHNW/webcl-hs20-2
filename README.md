@@ -450,7 +450,6 @@ filter: hue-rotate(180deg)
 
 }
 
-
 ---
 
 **PEP**
@@ -460,5 +459,11 @@ Interaktive Personaleinsatzplanung
 Folien: WebClients_11_REST
 
 Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week9/pep-sketch/PEP.html
+
+---
+
+**Rest / Good Client Design**
+
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep-sketch/PEP.html
 
 ---
