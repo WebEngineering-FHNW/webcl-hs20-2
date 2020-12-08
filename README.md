@@ -519,8 +519,8 @@ Angesehene Files:
 ---
 
 **Lösungsvorschlag für Aufgabe**
-Für einen weiteren Service für loadDevelopers
 
-Lösung von Herr König vorhanden
+Für einen weiteren Service für loadDevelopers
+- Lösung von Herr König vorhanden in den jeweiligen Files
 
 ---
