@@ -488,3 +488,9 @@ JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 **CSS Goodie: Tabellen mit Position fixed**
 
 ---
+
+**Cake**
+
+Folien: WebClients_12_
+
+---
