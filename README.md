@@ -489,10 +489,27 @@ JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 
 ---
 
-**Cake**
+**Interfaces in JS**
 
 Folien: WebClients_12_ServiceFactory
 
 Pattern: Abstract Factory Pattern
+
+Interfaces in JavaScript mit JSDoc
+
+! = Mandatory Attribut, ? = Optional Attribut
+
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pep.html
+
+Angesehene Files:
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepLocalStarter.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepRemoteStarter.js
+
+Für alle Remote Services einen Lokalen Service kreieren, so das man z.B. testen oder ohne remote arbeiten kann.
+
+JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
+- Files hier: https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/ zu finden
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/rest/restClient.js
+
 
 ---
