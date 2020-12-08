@@ -509,7 +509,7 @@ Für alle Remote Services einen Lokalen Service kreieren, so das man z.B. testen
 
 JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 - Files hier: https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/ zu finden
-- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/rest/restClient.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepController.js
 
 
 ---
