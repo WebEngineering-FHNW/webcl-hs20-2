@@ -14,6 +14,8 @@ Der aktuelle Punktestand der Studenten ist in der Microsoft Teams Gruppe unter d
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/View.html
 
+---
+
 # week2
 **Date**: 22.09.2020 08:15 a.m. - 11:00 a.m.
 
@@ -64,6 +66,7 @@ Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
 
 ---
+
 # week3
 **Date**: 29.09.2020 08:15 a.m. - 11:00 a.m.
 
@@ -164,6 +167,7 @@ https://tube.switch.ch/videos/f6f3bc1b
 
 Browser ist ein Master Detail View als Bsp.
 Master View sind die Tabs, Inhalt der Tabs ist ein Detail View
+
 ---
 
 # week 5
@@ -231,16 +235,19 @@ Foliensatz: WebClients_5_Projector_Pattern
 ---
 
 **CSS Effekt: Focus animation**: 
-Sensorik:
-Berührung, Audio, Bewegung
 
-Bewegung des Hintergrunds für Animation mit Background Image gradient
-border-bottom-volor: transparent;
-background-image: linear-gradient(orange, orange);
-background-size: 100% 1px;
-background-repeat: no-repeat;
-background-position: right bottom;
-transition: background-size 0.3s linear;
+Sensorik:
+- Berührung
+- Audio
+- Bewegung
+
+Bewegung des Hintergrunds für Animation mit Background Image gradient:
+- border-bottom-volor: transparent;
+- background-image: linear-gradient(orange, orange);
+- background-size: 100% 1px;
+- background-repeat: no-repeat;
+- background-position: right bottom;
+- transition: background-size 0.3s linear;
 
 Bei jeder Änderung ide dazu führt das eine CSS Regel angewendet wird, werden auch transitions umgesetzt.
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/todo/todo.css
