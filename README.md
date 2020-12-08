@@ -506,7 +506,7 @@ Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pe
 Angesehene Files:
 - https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepLocalStarter.js
 - https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepRemoteStarter.js
-- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/* 
 - https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepController.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/* 
 
 ---
