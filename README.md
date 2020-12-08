@@ -517,3 +517,10 @@ Angesehene Files:
 - https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/* 
 
 ---
+
+**Lösungsvorschlag für Aufgabe**
+Für einen weiteren Service für loadDevelopers
+
+Lösung von Herr König vorhanden
+
+---
