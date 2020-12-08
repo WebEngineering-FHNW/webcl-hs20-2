@@ -477,3 +477,14 @@ JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 - https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/rest/restClient.js
 
 ---
+
+# week 12
+**Date**: 08.12.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Goodie: Tabellen mit Position fixed**
+
+---
