@@ -22,10 +22,7 @@ const PepController = () => {
         {week:2, devId:1, avail:100},
         {week:3, devId:1, avail:0},
     ];
-    const projects = [
-        {id:0, color: 'red',   name: "Personal Einsatz Planung"},
-        {id:1, color: 'green', name: "Web Clients"},
-    ];
+    const projects = [];
     const FTEs = [
         {week:0, projId:0, fte:100},
         {week:1, projId:0, fte:150},
@@ -42,7 +39,8 @@ const PepController = () => {
     ];
     const devs = [];
 
-    const addDevs = devArray => devArray.forEach( dev => devs.push(dev));
+    const addDevs     = devArray  => devArray.forEach(  dev => devs.push(dev));
+    const addProjects = projArray => projArray.forEach( proj => projects.push(proj));
 
     /**
      * Any assignment with an amount of 0 will be removed from the model.
@@ -55,6 +53,7 @@ const PepController = () => {
 
     return {
         addDevs,
+        addProjects,
         cleanZeroAssignments,
         weeks, avails, projects, FTEs, assignments, devs
     }

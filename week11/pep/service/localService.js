@@ -9,6 +9,12 @@ const devs = [
     {id:1, img:"img/img1.jpg", name: "Christian Ribeaud"},
 ];
 
+/** @type Project[] */
+const projs = [
+    {id:0, color: 'red',   name: "Personal Einsatz Planung"},
+    {id:1, color: 'green', name: "Web Clients"},
+];
+
 /**
  * Concrete factory for local {@link PepService} functions.
  * @constructor
@@ -17,5 +23,6 @@ const devs = [
 const pepServices = () => {
 
     const loadDevelopers = withDevelopers => withDevelopers(devs);
-    return { loadDevelopers }
+    const loadProjects   = withProjects   => withProjects(projs);
+    return { loadDevelopers, loadProjects }
 };

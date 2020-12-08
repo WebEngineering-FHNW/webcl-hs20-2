@@ -6,10 +6,11 @@ import {PepController } from "./pepController.js";
 
 export { start } ;
 
-const start = (appRootId, devArray) => {
+const start = (appRootId, devArray, projectArray) => {
 
     const pepController = PepController();
     pepController.addDevs(devArray);
+    pepController.addProjects(projectArray);
 
     const weeks     = pepController.weeks;
     const avails    = pepController.avails;
