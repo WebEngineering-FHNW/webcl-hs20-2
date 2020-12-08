@@ -491,6 +491,8 @@ JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 
 **Cake**
 
-Folien: WebClients_12_
+Folien: WebClients_12_ServiceFactory
+
+Pattern: Abstract Factory Pattern
 
 ---
