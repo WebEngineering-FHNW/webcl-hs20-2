@@ -489,9 +489,11 @@ JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 
 ---
 
-**Interfaces in JS**
+**Interfaces in JS / Live Codeing**
 
 Folien: WebClients_12_ServiceFactory
+
+*Wichtig: Unterrichts-Stoff angegeben, aber nicht Zusammengefasst. Bei Problemem mit dem Verständnis vom Pattern, umbedingt die Aufnahmen ansehen.*
 
 Pattern: Abstract Factory Pattern
 
