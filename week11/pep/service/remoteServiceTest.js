@@ -4,32 +4,27 @@ import { Suite }        from "../../test/test.js";
 const remoteServiceSuite = Suite("remoteService");
 const service = pepServices(`https://localhost:44382/api/pep`, '');
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+function init () {
+  remoteServiceSuite.add("setup", async assert => {
+    assert.is(1, 1);
 
+    var d = null;
+    var done = false;
 
-remoteServiceSuite.add("setup", assert => {
-  assert.is(1, 1)
-
-  var d = null;
-  var done = false;
-
-   service.loadDevelopers( devs => {
-    d = devs;
-  });
-   service.loadDevelopers( devs2 => {
-	  assert.is(2, devs2.length);
-			done = true;
-	})
-  
-
-    service.loadProjects( projs => {
-        assert.is(projs.length, 2);
+    await service.loadDevelopers(  devs => {
+      d = devs;
+    });
+    await service.loadDevelopers( devs2 => {
+      assert.is(2, devs2.length);
+        done = true;
     })
-
     
 
-});
+    await service.loadProjects( projs => {
+          assert.is(projs.length, 2);
+      })
+  });
+}
 
+init();
 remoteServiceSuite.run();
