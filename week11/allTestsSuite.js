@@ -8,5 +8,6 @@ import './church/churchTest.js'
 import './church/rockTest.js'
 
 import './pep/service/localServiceTest.js'
+import './pep/service/remoteServiceTest.js'
 import './pep/service/jsonToModelTest.js'
 import './pep/pepControllerTest.js'

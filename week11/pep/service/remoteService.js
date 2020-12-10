@@ -10,10 +10,12 @@ export { pepServices }
  */
 const pepServices = (URL, imagePath) => {
 
+
+
     const loadDevelopers = withDevelopers =>
         client(URL)
         .then(json => {
-            // console.log("All devs:", JSON.stringify(json));
+            console.log("All devs:", JSON.stringify(json));
             const devs = json.map( toDeveloper(imagePath) );
             withDevelopers(devs);
         })
