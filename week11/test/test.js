@@ -45,7 +45,7 @@ function test(name, callback) {
 }
 
 function Suite(suiteName) {
-    const tests = []; // [Test]
+    const tests = []; // [Tests]
     dict[suiteName] = 0;
     const suite = {
         test: (testName, callback) => test(suiteName + "-"+ testName, callback),
@@ -53,12 +53,12 @@ function Suite(suiteName) {
             tests.push(Test (testName) (callback))   
         },
         run:  (numberOf) => {
-            dict[suiteName] = numberOf; //how many tests excepted?
+            dict[suiteName] = numberOf; // how many tests excepted?
             const suiteAssert = Assert(suiteName);
             tests.forEach( test => test(logic) (suiteAssert) );
-            /*total += suiteAssert.results.length;                //moved
+            /*total += suiteAssert.results.length;                // moved
             if (suiteAssert.results.every( id )) { 
-                report("suite " + suiteName, suiteAssert.results) //already runned prev. version!
+                report("suite " + suiteName, suiteAssert.results) // already runned prev. version!
             } else { 
                 tests.forEach( test => suite.test( test(name), test(logic) ) )
             }*/
