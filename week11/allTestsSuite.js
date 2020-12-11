@@ -2,12 +2,12 @@
 
 // "allTest" suite for both synchronous and asynchronous handling.
 
-import './util/timesTest.js'
-import './util/stringsTest.js'
-import './church/churchTest.js'
-import './church/rockTest.js'
+//import './util/timesTest.js'
+//import './util/stringsTest.js'
+//import './church/churchTest.js'
+//import './church/rockTest.js'
 
 import './pep/service/localServiceTest.js'
 import './pep/service/remoteServiceTest.js'
-import './pep/service/jsonToModelTest.js'
-import './pep/pepControllerTest.js'
+//import './pep/service/jsonToModelTest.js'
+//import './pep/pepControllerTest.js'
