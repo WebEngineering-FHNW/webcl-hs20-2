@@ -53,7 +53,7 @@ function Suite(suiteName) {
             tests.push(Test (testName) (callback))   
         },
         run:  (numberOf) => {
-            dict[suiteName] = numberOf; // how many tests excepted?
+            dict[suiteName] = numberOf; // how many tests expected?
             const suiteAssert = Assert(suiteName);
             tests.forEach( test => test(logic) (suiteAssert) );
             /*total += suiteAssert.results.length;                // moved
