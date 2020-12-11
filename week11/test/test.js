@@ -56,10 +56,10 @@ function Suite(suiteName) {
             dict[suiteName] = numberOf; //how many tests excepted?
             const suiteAssert = Assert(suiteName);
             tests.forEach( test => test(logic) (suiteAssert) );
-            /*total += suiteAssert.results.length;          //moved
-            if (suiteAssert.results.every( id )) { // whole suite was ok, report whole suite
-                report("suite " + suiteName, suiteAssert.results)
-            } else { // some test in suite failed, rerun tests for better error indication
+            /*total += suiteAssert.results.length;                //moved
+            if (suiteAssert.results.every( id )) { 
+                report("suite " + suiteName, suiteAssert.results) //already runned prev. version!
+            } else { 
                 tests.forEach( test => suite.test( test(name), test(logic) ) )
             }*/
         }
