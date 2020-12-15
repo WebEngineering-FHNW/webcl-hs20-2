@@ -524,3 +524,17 @@ Für einen weiteren Service für loadDevelopers
 - Lösung von Herr König vorhanden in den jeweiligen Files
 
 ---
+
+# week 13
+**Date**: 15.12.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Goodie: Happy Christmas**
+
+Weihnachtsbaum mit CSS abgerundent und Bildschirm mit fallendem Schnee gefüllt:
+- https://webengineering-fhnw.github.io/webcl-hs20/week13/HappyChristmas.html
+
+---
