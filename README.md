@@ -538,3 +538,20 @@ Weihnachtsbaum mit CSS abgerundent und Bildschirm mit fallendem Schnee gefüllt:
 - https://webengineering-fhnw.github.io/webcl-hs20/week13/HappyChristmas.html
 
 ---
+
+**Eleval**
+
+Gemeinsam angesehen, nicht in Video enthalten
+
+---
+
+**Präsentationen: PEP Lösungsvorschlage**
+
+Auf Aufnahme, werden in Codebasis reingenommen.
+
+Links:
+- https://github.com/RetoBeppo/webcl-hs20-2-pepstyle
+- https://github.com/loop-of-8/webcl-hs20-2/tree/master/week11
+
+---
+
