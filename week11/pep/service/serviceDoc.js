@@ -7,9 +7,18 @@ import "../domainDoc.js"
  * @return   {undefined} void
  */
 
+/**
+ * @callback onProjectsReadyCallback
+ * @param    {Project[]} projects - array of projects
+ * @return   {undefined} void
+ */
 
 /**
  * Common interface for all services (abstract factory pattern)
  *
- * @typedef {{loadDevelopers: (function(onDevelopersReadyCallback): undefined)}} PepService
- * */
+ * @typedef {
+              {loadDevelopers: (function(onDevelopersReadyCallback): undefined)},
+              {loadProjects:   (function(onProjectsReadyCallback): undefined)}
+            } PepService
+ */
+
