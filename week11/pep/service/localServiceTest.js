@@ -15,4 +15,4 @@ localServiceSuite.add("setup", assert => {
 
 });
 
-localServiceSuite.run();
+localServiceSuite.run(2);

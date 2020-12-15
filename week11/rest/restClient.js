@@ -3,7 +3,7 @@ export { client }
 const client = (url, method = 'GET', data = null) => {
     const request = {
         method: method,                  // *GET, POST, PUT, DELETE, etc.
-        mode: 'same-origin',             // no-cors, *cors, same-origin
+        mode: 'cors',             // no-cors, *cors, same-origin
         cache: 'no-cache',               // no-cache, reload, force-cache, only-if-cached
         credentials: 'same-origin',      // include, *same-origin, omit
         headers: {
