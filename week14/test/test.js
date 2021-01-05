@@ -7,9 +7,8 @@ import { Tuple }              from "../church/rock.js";
 import { id }                 from "../church/church.js";
 
 let total = 0;
-var dict = {};
 
-function Assert(name) {
+function Assert() {
     const results = []; // [Bool], true if test passed, false otherwise
     return {
         results: results,
@@ -23,15 +22,6 @@ function Assert(name) {
                 console.error("test failure. Got '"+ actual +"', expected '" + expected +"'");
             }
             results.push(testResult);
-            dict[name] = dict[name] -1
-            if(dict[name] == 0) {
-                total += results.length;
-                if (results.every( id )) { // whole suite was ok, report whole suite
-                    report("suite " + name, results)
-                } else { // some test in suite failed, rerun tests for better error indication
-                    //tests.forEach( test => suite.test( test(name), test(logic) ) )
-                }
-            }
         }
     }
 }
@@ -39,29 +29,25 @@ function Assert(name) {
 const [Test, name, logic] = Tuple(2); // data type to capture test to-be-run
 
 function test(name, callback) {
-    const assert = Assert(name);
+    const assert = Assert();
     callback(assert);
     report(name, assert.results)
 }
 
 function Suite(suiteName) {
-    const tests = []; // [Tests]
-    dict[suiteName] = 0;
+    const tests = []; // [Test]
     const suite = {
         test: (testName, callback) => test(suiteName + "-"+ testName, callback),
-        add:  (testName, callback) => {
-            tests.push(Test (testName) (callback))   
-        },
-        run:  (numberOf) => {
-            dict[suiteName] = numberOf; // how many tests expected?
-            const suiteAssert = Assert(suiteName);
+        add:  (testName, callback) => tests.push(Test (testName) (callback)),
+        run:  () => {
+            const suiteAssert = Assert();
             tests.forEach( test => test(logic) (suiteAssert) );
-            /*total += suiteAssert.results.length;                // moved
-            if (suiteAssert.results.every( id )) { 
-                report("suite " + suiteName, suiteAssert.results) // already runned prev. version!
-            } else { 
+            total += suiteAssert.results.length;
+            if (suiteAssert.results.every( id )) { // whole suite was ok, report whole suite
+                report("suite " + suiteName, suiteAssert.results)
+            } else { // some test in suite failed, rerun tests for better error indication
                 tests.forEach( test => suite.test( test(name), test(logic) ) )
-            }*/
+            }
         }
     };
     return suite;
@@ -73,7 +59,6 @@ function report(origin, ok) {
     const extend = 20;
     if ( ok.every( elem => elem) ) {
         write(" "+ padLeft(ok.length, 3) +" tests in " + padRight(origin, extend) + " ok.");
-        document.getElementById('grossTotal').innerText = "" + total + " Tests";
         return;
     }
     let reportLine = "    Failing tests in " + padRight(origin, extend);

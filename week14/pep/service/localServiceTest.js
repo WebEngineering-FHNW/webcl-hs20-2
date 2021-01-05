@@ -9,10 +9,6 @@ localServiceSuite.add("setup", assert => {
         assert.is(devs.length, 2);
     })
 
-    pepServices().loadProjects( projs => {
-        assert.is(projs.length, 2);
-    })
-
 });
 
-localServiceSuite.run(2);
+localServiceSuite.run();
