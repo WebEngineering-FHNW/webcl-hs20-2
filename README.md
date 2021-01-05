@@ -555,3 +555,19 @@ Links:
 
 ---
 
+# week 14
+**Date**: 05.01.2021 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Goodie: Almost 3D**
+
+- https://webengineering-fhnw.github.io/webcl-hs20/week14/Goodie-Almost-3D.html
+
+CSS Transform / Perspective änderungen 
+
+---
+
+
