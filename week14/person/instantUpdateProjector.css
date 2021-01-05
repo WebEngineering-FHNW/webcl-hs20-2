@@ -1,9 +1,9 @@
 
-/*body {*/
-/*    perspective: 100vw;*/
-/*}*/
+body {
+    perspective: 100vw;
+}
 .card {
-    /*transition: all ease-in-out .5s;*/
+    transition: all ease-in-out .5s;
     max-width:  40em;
     margin:     1em auto 4em auto;
     padding:    2em;

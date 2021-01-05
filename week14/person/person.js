@@ -21,7 +21,7 @@ const Person = () => {                               // facade
     const lastnameAttr  = Attribute("Mustermann", `Person.${id}.lastname`);
     lastnameAttr.getObs(LABEL).setValue("Last Name");
 
-    // const detailedAttr  = Attribute(true, `Person.${id}.detailed`);
+    const detailedAttr  = Attribute(true, `Person.${id}.detailed`);
 
     lastnameAttr.setConverter( input => input.toUpperCase() );  // enable for playing around
     lastnameAttr.setValidator( input => input.length >= 3   );
@@ -29,7 +29,7 @@ const Person = () => {                               // facade
     return {
         firstname:          firstnameAttr,
         lastname:           lastnameAttr,
-        // detailed:           detailedAttr,
+        detailed:           detailedAttr,
         toString: () => firstnameAttr.getObs(VALUE).getValue() + " " + lastnameAttr.getObs(VALUE).getValue(),
     }
 };

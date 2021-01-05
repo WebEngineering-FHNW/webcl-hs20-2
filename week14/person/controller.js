@@ -2,7 +2,7 @@
  * @module Controllers as shallow wrappers around observables
  */
 import { ObservableList, Observable }   from "../observable/observable.js";
-// import { EDITABLE, VALUE }              from "../presentationModel/presentationModel.js"
+import { EDITABLE, VALUE }              from "../presentationModel/presentationModel.js"
 import { reset, Person }                from "./person.js"
 
 export { ListController, SelectionController }
@@ -22,10 +22,10 @@ const ListController = modelConstructor => {
 const noSelection = reset(Person());
 noSelection.firstname.setQualifier("Person.none.firstname");
 noSelection.lastname .setQualifier("Person.none.lastname");
-// noSelection.detailed .setQualifier("Person.none.detailed");
-// noSelection.detailed .getObs(VALUE).setValue(false);
-// noSelection.firstname.getObs(EDITABLE).setValue(false);
-// noSelection.lastname .getObs(EDITABLE).setValue(false);
+noSelection.detailed .setQualifier("Person.none.detailed");
+noSelection.detailed .getObs(VALUE).setValue(false);
+noSelection.firstname.getObs(EDITABLE).setValue(false);
+noSelection.lastname .getObs(EDITABLE).setValue(false);
 
 const SelectionController = model => {
 

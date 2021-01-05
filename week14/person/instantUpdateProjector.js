@@ -117,16 +117,16 @@ const formProjector = (detailController, rootElement, model, attributeNames) => 
         bindTextInput(model[attributeName], inputElement);
         model[attributeName].getObs(LABEL, '').onChange(label => labelElement.textContent = label);
     });
-    // if (undefined != model.detailed) {
-    //     model.detailed.getObs(VALUE).onChange( newValue => {
-    //         const parent = rootElement.parentElement
-    //         if (newValue) {
-    //             parent.classList.remove("no-detail");
-    //         } else {
-    //             parent.classList.add("no-detail");
-    //         }
-    //     })
-    // }
+    if (undefined != model.detailed) {
+        model.detailed.getObs(VALUE).onChange( newValue => {
+            const parent = rootElement.parentElement
+            if (newValue) {
+                parent.classList.remove("no-detail");
+            } else {
+                parent.classList.add("no-detail");
+            }
+        })
+    }
 
     if (rootElement.firstChild) {
         rootElement.firstChild.replaceWith(divElement);
@@ -149,11 +149,11 @@ const pageCss = `
         grid-template-columns: 1fr 3fr;
         margin-bottom:  0.5em ;
     }
-    // .no-detail {
-    //     opacity:        0.2;
-    //     transition:     all ease-both 0.5s;
-    //     transition-delay: 200ms;
-    //     transform:      rotateX(-60deg);
-    //     transform-origin: top center;
-    // }
+    .no-detail {
+        opacity:        0.2;
+        transition:     all ease-both 0.5s;
+        transition-delay: 200ms;
+        transform:      rotateX(-60deg);
+        transform-origin: top center;
+    }
 `;
