@@ -608,4 +608,10 @@ Was ist nicht gut?
 
 ---
 
+**Applied Concepts**
+
+Folien: WebClients_15_TeamApp
+
+---
+
 
