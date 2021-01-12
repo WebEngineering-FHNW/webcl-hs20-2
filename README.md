@@ -600,7 +600,7 @@ Qualitätskontrolle vom Histogrammcotainer, check durch HTML Validator
 - Was ist nicht gut?:
 - Histogramm benutzt Starter nicht
 - Modularisierung nicht korrekt durchgezogen, mann muss zuviel code kennen für Änderungen
-- Baut keine View auf, sondern baut ein Canvas auf
+- Baut keine View auf mit Binding, sondern baut ein Canvas auf
 
 
 ---
