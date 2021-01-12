@@ -590,7 +590,7 @@ Angesehene Files:
 
 ---
 
-**Applied Concepts**
+**Histogramm**
 
 Applikation unter https://github.com/AndreasRohr/MasterDetailHistogram/tree/main/week14/person
 
