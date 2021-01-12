@@ -608,7 +608,7 @@ Was ist nicht gut?
 
 ---
 
-**Applied Concepts**
+**Team Apps**
 
 Folien: WebClients_15_TeamApp
 
