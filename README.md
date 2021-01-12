@@ -614,7 +614,7 @@ Folien: WebClients_15_TeamApp
 
 Zentrale Verwaltung einer Applikation mit mehreren Nutzern gleichzeitig.
 
-Thema: Broadcast
+Thema: Broadcast & Proxy's
 
 ---
 
