@@ -594,6 +594,8 @@ Angesehene Files:
 
 Applikation unter https://github.com/AndreasRohr/MasterDetailHistogram/tree/main/week14/person
 
+Qualitätskontrolle vom Histogrammcotainer 
+
 ---
 
 
