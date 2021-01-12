@@ -612,6 +612,8 @@ Was ist nicht gut?
 
 Folien: WebClients_15_TeamApp
 
+Zentrale Verwaltung einer Applikation mit mehreren Nutzern gleichzeitig.
+
 ---
 
 
