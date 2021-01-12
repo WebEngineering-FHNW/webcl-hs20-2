@@ -602,6 +602,7 @@ Qualitätskontrolle vom Histogrammcotainer, check durch HTML Validator
 - Modularisierung nicht korrekt durchgezogen, mann muss zuviel code kennen für Änderungen
 - Baut keine View auf mit Binding, sondern baut ein Canvas auf
 - Aktuelle Lösung kann man machen (sollte man aber nicht, wenn der restliche Code strukturiert ist), bringt aber alles durcheinander
+- Die Lösung ist nicht fertig durchdacht. Es gibt viele Mängel.
 
 ---
 
