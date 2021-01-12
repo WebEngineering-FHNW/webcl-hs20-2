@@ -596,13 +596,15 @@ Applikation unter https://github.com/AndreasRohr/MasterDetailHistogram/tree/main
 
 Qualitätskontrolle vom Histogrammcotainer, check durch HTML Validator
 
-- Externe Links mit Fingerprint
-- Was ist nicht gut?:
+Externe Links mit Fingerprint
+
+Was ist nicht gut?
 - Histogramm benutzt Starter nicht
-- Modularisierung nicht korrekt durchgezogen, mann muss zuviel code kennen für Änderungen
-- Baut keine View auf mit Binding, sondern baut ein Canvas auf
+- Modularisierung nicht korrekt durchgezogen, mann muss zu viel code kennen für kleine Änderungen
+- Baut keine View auf mit Bindings, sondern ein Canvas
 - Aktuelle Lösung kann man machen (sollte man aber nicht, wenn der restliche Code strukturiert ist), bringt aber alles durcheinander
 - Die Lösung ist nicht fertig durchdacht. Es gibt viele Mängel.
+- Es wurde nicht richtig getestet.
 
 ---
 
