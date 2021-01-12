@@ -566,7 +566,33 @@ Links:
 
 - https://webengineering-fhnw.github.io/webcl-hs20/week14/Goodie-Almost-3D.html
 
-CSS Transform / Perspective änderungen 
+CSS Transform / Perspective Änderungen. 
+
+---
+
+**Applied Concepts**
+
+Folien: WebClients_14_Applied_Concepts
+
+Model World, Qualifier Strings,
+
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pep.html
+
+Angesehene Files:
+- https://webengineering-fhnw.github.io/webcl-hs20/week14/
+
+---
+
+# week 15
+**Date**: 05.01.2021 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**Applied Concepts**
+
+Applikation unter https://github.com/AndreasRohr/MasterDetailHistogram/tree/main/week14/person
 
 ---
 
