@@ -584,7 +584,7 @@ Angesehene Files:
 ---
 
 # week 15
-**Date**: 05.01.2021 08:15 a.m. - 11:00 a.m.
+**Date**: 12.01.2021 08:15 a.m. - 11:00 a.m.
 
 **Recording**: *In der Teams Gruppe*
 
@@ -595,6 +595,13 @@ Angesehene Files:
 Applikation unter https://github.com/AndreasRohr/MasterDetailHistogram/tree/main/week14/person
 
 Qualitätskontrolle vom Histogrammcotainer, check durch HTML Validator
+
+- Externe Links mit Fingerprint
+- Was ist nicht gut?:
+- Histogramm benutzt Starter nicht
+- Modularisierung nicht korrekt durchgezogen, mann muss zuviel code kennen für Änderungen
+- Baut keine View auf, sondern baut ein Canvas auf
+
 
 ---
 
