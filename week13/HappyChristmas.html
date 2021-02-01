@@ -81,17 +81,17 @@
         .tree div:nth-child(5) {  /* tree branches level 5 */
             transform: translateY(-280px) scale(0.25);
         }
-        /*.tree div span.start {*/
-        /*    transform: translateY(100vh);*/
-        /*}*/
+        .tree div span.start {
+            transform: translateY(100vh);
+        }
         .tree div span {
             position: relative;
             width: 50%;
             height: 100%;
             display: block;
             overflow: hidden;
-            /*z-index: 1;*/
-            /*transition: transform 2s ease-out;*/
+            z-index: 1;
+            transition: transform 2s ease-out;
         }
         .tree div span:nth-child(1)::before { /*left branch*/
             content: '';
@@ -101,10 +101,10 @@
             width: 200%;
             height: 100%;
             background: linear-gradient(darkolivegreen, darkseagreen);
-            /*border-top-left-radius:    110% 100%;*/
-            /*border-top-right-radius:     0% 100%;*/
-            /*border-bottom-left-radius:  50%  20%;*/
-            /*border-bottom-right-radius: 50%  20%;*/
+            border-top-left-radius:    110% 100%;
+            border-top-right-radius:     0% 100%;
+            border-bottom-left-radius:  50%  20%;
+            border-bottom-right-radius: 50%  20%;
         }
         .tree div span:nth-child(2)::before { /*right branch*/
             content: '';
@@ -114,10 +114,10 @@
             width: 200%;
             height: 100%;
             background: linear-gradient(darkolivegreen, darkseagreen);
-            /*border-top-left-radius:      0% 100%;*/
-            /*border-top-right-radius:   110% 100%;*/
-            /*border-bottom-left-radius:  50%  20%;*/
-            /*border-bottom-right-radius: 50%  20%;*/
+            border-top-left-radius:      0% 100%;
+            border-top-right-radius:   110% 100%;
+            border-bottom-left-radius:  50%  20%;
+            border-bottom-right-radius: 50%  20%;
         }
 
         #snow {
@@ -191,7 +191,6 @@
 
     const start = () => document.querySelectorAll(".start").forEach(span => span.classList.remove("start"));
 
-    /*
     const makeFlake = _ => ({left: Math.random() * 100, top: (Math.random()) * 100} );
     const fast   = Array.from( {length:  4}, makeFlake);
     const middle = Array.from( {length: 10}, makeFlake);
@@ -205,14 +204,13 @@
             flake.style.top    = flakeModel.top  + "%";
             flake.style.width  = size;
             flake.style.height = size;
-            // flake.style['animation-duration'] = (Math.random() + 0.5) * animationSeconds + "s";
+            flake.style['animation-duration'] = (Math.random() + 0.5) * animationSeconds + "s";
             snow.appendChild(flake);
         } );
     };
     register(fast,   "25px", 5);
     register(middle, "18px", 8);
     register(slow,   "12px", 10);
-*/
 
 </script>
 

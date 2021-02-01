@@ -14,6 +14,8 @@ Der aktuelle Punktestand der Studenten ist in der Microsoft Teams Gruppe unter d
 
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week1/todo/View.html
 
+---
+
 # week2
 **Date**: 22.09.2020 08:15 a.m. - 11:00 a.m.
 
@@ -64,6 +66,7 @@ Repository Link: https://github.com/YannikBeimler/innerText-vs-textContent
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week2/presentationModel/presentationModel.js
 
 ---
+
 # week3
 **Date**: 29.09.2020 08:15 a.m. - 11:00 a.m.
 
@@ -164,6 +167,7 @@ https://tube.switch.ch/videos/f6f3bc1b
 
 Browser ist ein Master Detail View als Bsp.
 Master View sind die Tabs, Inhalt der Tabs ist ein Detail View
+
 ---
 
 # week 5
@@ -231,16 +235,19 @@ Foliensatz: WebClients_5_Projector_Pattern
 ---
 
 **CSS Effekt: Focus animation**: 
-Sensorik:
-Berührung, Audio, Bewegung
 
-Bewegung des Hintergrunds für Animation mit Background Image gradient
-border-bottom-volor: transparent;
-background-image: linear-gradient(orange, orange);
-background-size: 100% 1px;
-background-repeat: no-repeat;
-background-position: right bottom;
-transition: background-size 0.3s linear;
+Sensorik:
+- Berührung
+- Audio
+- Bewegung
+
+Bewegung des Hintergrunds für Animation mit Background Image gradient:
+- border-bottom-volor: transparent;
+- background-image: linear-gradient(orange, orange);
+- background-size: 100% 1px;
+- background-repeat: no-repeat;
+- background-position: right bottom;
+- transition: background-size 0.3s linear;
 
 Bei jeder Änderung ide dazu führt das eine CSS Regel angewendet wird, werden auch transitions umgesetzt.
 Github pages under https://webengineering-fhnw.github.io/webcl-hs20/week6/todo/todo.css
@@ -477,3 +484,138 @@ JSDoc Trick für Interfaces in javaScript, für Patterns wie Abstract Factory
 - https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/rest/restClient.js
 
 ---
+
+# week 12
+**Date**: 08.12.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Goodie: Tabellen mit Position fixed**
+
+---
+
+**Interfaces in JS / Live Codeing**
+
+Folien: WebClients_12_ServiceFactory
+
+*Wichtig: Unterrichts-Stoff angegeben, aber nicht Zusammengefasst. Bei Problemem mit dem Verständnis vom Pattern, umbedingt die Aufnahmen ansehen.*
+
+Pattern: Abstract Factory Pattern
+
+Interfaces in JavaScript mit JSDoc
+
+! = Mandatory Attribut, ? = Optional Attribut
+
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pep.html
+
+Angesehene Files:
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepLocalStarter.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepRemoteStarter.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pepController.js
+- https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/services/* 
+
+---
+
+**Lösungsvorschlag für Aufgabe**
+
+Für einen weiteren Service für loadDevelopers
+- Lösung von Herr König vorhanden in den jeweiligen Files
+
+---
+
+# week 13
+**Date**: 15.12.2020 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Goodie: Happy Christmas**
+
+Weihnachtsbaum mit CSS abgerundent und Bildschirm mit fallendem Schnee gefüllt:
+- https://webengineering-fhnw.github.io/webcl-hs20/week13/HappyChristmas.html
+
+---
+
+**Eleval**
+
+Gemeinsam angesehen, nicht in Video enthalten
+
+---
+
+**Präsentationen: PEP Lösungsvorschlage**
+
+Auf Aufnahme, werden in Codebasis reingenommen.
+
+Links:
+- https://github.com/RetoBeppo/webcl-hs20-2-pepstyle
+- https://github.com/loop-of-8/webcl-hs20-2/tree/master/week11
+
+---
+
+# week 14
+**Date**: 05.01.2021 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**CSS Goodie: Almost 3D**
+
+- https://webengineering-fhnw.github.io/webcl-hs20/week14/Goodie-Almost-3D.html
+
+CSS Transform / Perspective Änderungen. 
+
+---
+
+**Applied Concepts**
+
+Folien: WebClients_14_Applied_Concepts
+
+Model World, Qualifier Strings,
+
+Applikation unter https://webengineering-fhnw.github.io/webcl-hs20/week11/pep/pep.html
+
+Angesehene Files:
+- https://webengineering-fhnw.github.io/webcl-hs20/week14/
+
+---
+
+# week 15
+**Date**: 12.01.2021 08:15 a.m. - 11:00 a.m.
+
+**Recording**: *In der Teams Gruppe*
+
+---
+
+**Histogramm**
+
+Applikation unter https://github.com/AndreasRohr/MasterDetailHistogram/tree/main/week14/person
+
+Qualitätskontrolle vom Histogrammcotainer, check durch HTML Validator
+
+Externe Links mit Fingerprint
+
+Was ist nicht gut?
+- Histogramm benutzt Starter nicht
+- Modularisierung nicht korrekt durchgezogen, mann muss zu viel code kennen für kleine Änderungen
+- Baut keine View auf mit Bindings, sondern ein Canvas
+- Aktuelle Lösung kann man machen (sollte man aber nicht, wenn der restliche Code strukturiert ist), bringt aber alles durcheinander
+- Die Lösung ist nicht fertig durchdacht. Es gibt viele Mängel.
+- Es wurde nicht richtig getestet.
+
+---
+
+**Team Apps**
+
+Folien: WebClients_15_TeamApp
+
+Zentrale Verwaltung einer Applikation mit mehreren Nutzern gleichzeitig.
+
+Thema: Broadcast & Proxy's
+
+---
+
+
